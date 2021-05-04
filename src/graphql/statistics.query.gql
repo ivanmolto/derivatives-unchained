@@ -1,0 +1,31 @@
+query Statistic {
+  statistics {
+    blockHeight
+    backlogLength
+    totalPeers
+    genesisTime
+    currentTime
+    upTime
+    vegaTime
+    status
+    txPerBlock
+    averageOrdersPerBlock
+    tradesPerSecond
+    ordersPerSecond
+    totalMarkets
+    totalAmendOrder
+    totalCancelOrder
+    totalCreateOrder
+    totalOrders
+    totalTrades
+    appVersion
+    chainVersion
+    blockDuration
+    orderSubscriptions
+    tradeSubscriptions
+    candleSubscriptions
+    marketDepthSubscriptions
+    marketDepthUpdateSubscriptions
+    positionsSubscriptions
+  }
+}

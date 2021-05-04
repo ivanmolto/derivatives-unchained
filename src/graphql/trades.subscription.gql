@@ -1,0 +1,14 @@
+subscription Trade { 
+  trades { 
+    id 
+    price 
+    size 
+    aggressor 
+    buyer { 
+      id 
+    } 
+    seller { 
+      id 
+    } 
+  } 
+}

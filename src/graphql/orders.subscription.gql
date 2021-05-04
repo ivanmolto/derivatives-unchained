@@ -1,0 +1,13 @@
+subscription Order {
+  orders {
+    id
+    price
+    side
+    market {
+      name
+    }
+    party {
+      id
+    }
+  }
+}

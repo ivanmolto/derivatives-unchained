@@ -1,0 +1,14 @@
+query Party {
+  parties {
+    id
+    deposits {
+      amount
+      asset {
+        name
+        symbol
+      }
+      status
+      txHash
+    }
+  }
+}

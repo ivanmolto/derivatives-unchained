@@ -1,0 +1,16 @@
+query Asset {
+  assets {
+    id
+    name
+    symbol
+    totalSupply
+    decimals
+    source {
+      __typename
+    }
+    infrastructureFeeAccount {
+      balance
+      type
+    }
+  }
+}

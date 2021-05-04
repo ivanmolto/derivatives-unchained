@@ -1,0 +1,33 @@
+query Market {
+  markets {
+    name
+    fees {
+      factors {
+        makerFee
+        infrastructureFee
+        liquidityFee
+      }
+    }
+    tradableInstrument {
+      instrument {
+        name
+        metadata {
+          tags
+        }
+        product {
+          __typename
+        }
+      }
+    }
+    tradingMode
+    state
+    accounts {
+      balance
+      asset {
+        name
+        symbol
+      }
+      type
+    }
+  }
+}
