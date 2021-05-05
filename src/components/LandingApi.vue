@@ -20,7 +20,7 @@
     </div>
   </div>
   <div
-    class="mt-4 xl:mt-10 max-w-screen-lg xl:max-w-screen-xl mx-auto flex justify-center"
+    class="mt-8 xl:mt-10 max-w-screen-lg xl:max-w-screen-xl mx-auto flex justify-center"
   >
     <div class="px-4 sm:px-6 md:px-8 mb-14 sm:mb-20 xl:mb-8">
       <a
